@@ -1,0 +1,20 @@
+
+  Getxcontroller :
+
+  Here we have used the List.generate function which takes in the no of tiles to be generated 
+  as we are dealing with a 3x3 grid ,hence 9 tiles. We'll initialize them with blank strings. which will be observalble
+  We'll now have a function to update the tile. This function will take an index and a string.
+  and then the corresponding tile of the index will be updated with the value.
+  then finally a getter function which will fetch the string present in the corresponding index's tile.
+
+  We also have a variable isX to change the user after every input.
+
+  Usage in the mainscreen to render the x and o:
+  Ontap:
+  It will first check if there is an empty string in the grid tile by using 
+  the gettile getter with an index.If yyes then we'll call the updatetile function and pass the index and render the text conditionally.
+  If it's X's turn then it will render X else O. After this we'll change the user by inverting the isX value.
+
+  Text: Here we'l simply call the getter 
+
+ 
